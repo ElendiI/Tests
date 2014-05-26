@@ -27,7 +27,7 @@ public class ChainInteger {
 		ChainInteger q = ch.add(3);
 		//q.integer == 8;
 		
-		ChainInteger q = ch.subtraction(7);
+		q = ch.subtraction(7);
 		//q.integer == 1;
     }
 }

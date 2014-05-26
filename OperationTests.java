@@ -1,4 +1,6 @@
-import junit.framework.Assert;
+import static org.junit.Assert.*;
+
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -12,7 +14,7 @@ public class OperationTests {
 	@Test
 	public void testAddition(){
 		Integer result = new Integer(4);
-		assertEquals(result,4); 
+		assertEquals(result,(Number)4); 
 
 		assertEquals(result, new Integer(4)); //true
 		//assertEquals(result, (new ChainInteger).add(1,3))
